@@ -230,10 +230,10 @@ export default function Navbar() {
 
           {/* REDES SOLO MOBILE */}
           <div className="flex gap-6 text-xl">
-            <a href="#" target="_blank" className="hover:text-[#e53935]">
+            <a href="https://www.instagram.com/imac.tucuman/" target="_blank" className="hover:text-[#e53935]">
               <FaInstagram />
             </a>
-            <a href="#" target="_blank" className="hover:text-[#e53935]">
+            <a href="https://www.facebook.com/imacimagenes/" target="_blank" className="hover:text-[#e53935]">
               <FaFacebookF />
             </a>
           </div>

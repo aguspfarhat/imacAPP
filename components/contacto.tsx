@@ -50,7 +50,7 @@ export default function Contacto() {
             <div className="flex items-start gap-3">
               <Phone className="text-[#e53935]" />
               <div>
-                <p className="font-semibold">Teléfono</p>
+                <p className="font-semibold">Teléfono y mail</p>
                 <p className="text-sm font-bold">
                   Whatsapp
                 </p>
@@ -61,7 +61,16 @@ export default function Contacto() {
                   Teléfono fijo
                 </p>
                 <p className="text-sm text-gray-600">
-                  421-1118 / 255-4441
+                  421-1118
+                </p>
+                <p className="text-sm text-gray-600">
+                  255-4441
+                </p>
+                <p className="text-sm font-bold">
+                  Mail
+                </p>
+                <p className="text-sm text-gray-600">
+                  tac.rmn@gmail.com
                 </p>
               </div>
             </div>
