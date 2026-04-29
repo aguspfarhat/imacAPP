@@ -1,9 +1,16 @@
 @import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #07579f;
+   --color-primary: #e53935; /* rojo del diseño */
+  --color-text: #07579f; /* gris oscuro */
 }
+
+
 
 @theme inline {
   --color-background: var(--background);
@@ -14,13 +21,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* --background: #0a0a0a; */
+    --background: #ffffff;
+    --foreground: #07579f;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
+
