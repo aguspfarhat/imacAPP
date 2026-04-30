@@ -9,7 +9,7 @@ export default function Hero() {
           src="/home2.png"
           alt="Centro médico IMAC"
           fill
-          className="object-cover object-[82%_center] md:object-[75%_center]"
+          className="object-cover object-[83%_center] md:object-[75%_center]"
           priority
         />
       </div>
@@ -35,7 +35,7 @@ export default function Hero() {
           />
         </div>
 
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight mt-4">
+        <h1 className="text-3xl text-[#ffffff] md:text-5xl font-bold leading-tight mt-4 md:text-[#07579f]">
           Imágenes médicas <br />
           <span className="bg-gradient-to-r from-[#ff5a3c] to-[#e53935] bg-clip-text text-transparent">
             de alta complejidad
