@@ -15,7 +15,7 @@ type ObraSocial = {
 const obrasSociales: ObraSocial[] = [
   { id: 1, nombre: "PAMI", logo: "/logoPAMI.png", width: 150, height: 50 },
   { id: 2, nombre: "BOREAL", logo: "/logoBOREAL.jpg", width: 150, height: 50 },
-  { id: 9, nombre: "SUBSIDIO", logo: "/logoSUBSIDIO.PNG", width: 120, height: 50 },
+  { id: 9, nombre: "SUBSIDIO", logo: "/logoSUBSIDIO.png", width: 120, height: 50 },
   { id: 3, nombre: "OSDE", logo: "/logoOSDE.jpg", width: 170, height: 60 },
   {
     id: 4,
