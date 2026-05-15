@@ -12,7 +12,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tudominio.com"),
+  metadataBase: new URL("https://imactucuman.com.ar"),
   title: "IMAC - Imágenes médicas en Tucumán",
   description:
     "Centro de diagnóstico por imágenes en Tucumán. TAC, RMN, ecografías y radiografías digitales.",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IMAC - Diagnóstico por imágenes",
     description: "Centro médico en Tucumán",
-    url: "https://tudominio.com",
+    url: "https://imactucuman.com.ar",
     siteName: "IMAC",
     locale: "es_AR",
     type: "website",
